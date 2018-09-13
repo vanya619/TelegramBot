@@ -17,7 +17,7 @@ namespace TelegramBot
                 if (command.Contains(commands[i]))
                     return answers[i];
 
-            return "Команда не рапознана";
+            return "Команда не распознана";
         }
     }
 }
