@@ -8,7 +8,7 @@ namespace TelegramBot
 {
     class Program
     {
-        private static string token = @"672506975:AAEjfREtf-tmIRGFj-RqSzvzdcSlU-D1qVo";
+        private static readonly string token = @"672506975:AAEjfREtf-tmIRGFj-RqSzvzdcSlU-D1qVo";
         private static int lastUpdate = 0;
 
         static void Main(string[] args)
